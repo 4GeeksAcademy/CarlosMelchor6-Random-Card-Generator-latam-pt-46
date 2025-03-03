@@ -1,9 +1,9 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: green;
+    height: 100%;
 }
- #card {
-    height: 100px;
-
- }
+html {
+    height: 100%;
+}
