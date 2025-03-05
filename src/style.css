@@ -1,9 +1,13 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
+body {
     background: green;
     height: 100%;
 }
+
 html {
     height: 100%;
+}
+#symbolBottom {
+    transform: rotate(180deg);
 }
