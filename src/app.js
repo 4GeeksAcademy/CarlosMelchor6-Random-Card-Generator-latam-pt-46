@@ -19,21 +19,26 @@ window.onload = function () {
 
   let cardGenerate = document.querySelector("#cardGenerate")
   cardGenerate.style.width = "25%"
-  cardGenerate.style.height = "75%"
-  cardGenerate.classList.add("mx-auto", "bg-white", "rounded", "mt-5")
+  cardGenerate.style.height = "auto"
+  cardGenerate.style.borderRadius = "20px"
+  cardGenerate.classList.add("mx-auto", "bg-white", "mt-5")
 
   let symbolTop = document.querySelector("#symbolTop")
-  symbolTop.style.fontSize = "120px"
-  symbolTop.style.marginTop = "-2.5rem"
+  symbolTop.style.fontSize = "130px"
+  symbolTop.style.marginTop = "-1rem"
   symbolTop.style.marginLeft = "1rem"
+  symbolTop.style.height = "auto"
 
   let value = document.querySelector("#value")
-  value.style.fontSize = "180px"
+  value.style.fontSize = "150px"
   value.classList.add("d-flex", "justify-content-center", "align-items-center")
 
   let symbolBottom = document.querySelector("#symbolBottom")
-  symbolBottom.style.fontSize = "120px"
+  symbolBottom.style.fontSize = "130px"
   symbolBottom.style.marginRight = "1rem"
+  symbolBottom.style.marginBottom = "-1rem"
+
+
   
 
   let symbols = ["♦", "♥", "♠", "♣"]
